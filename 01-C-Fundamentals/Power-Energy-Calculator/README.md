@@ -1,39 +1,90 @@
-# Power & Energy Calculator
+# ⚡ Power & Energy Calculator
 
-A console-based calculator written in C to perform basic electrical power,
-energy, efficiency, and electricity cost calculations.
+A beginner-level C programming project created as part of my C programming journey toward embedded systems.
 
-## Features
+This project combines basic C programming concepts with electrical and electronics calculations.
 
-- Calculate power using:
-  - Voltage and Current
-  - Current and Resistance
-  - Voltage and Resistance
-- Calculate energy in Joules
-- Calculate energy consumption in kWh
-- Calculate efficiency
-- Calculate electricity cost
-- Calculate power from energy and time
-- Input validation for invalid values
+## 📌 Features
 
-## C Concepts Used
+The calculator can perform the following calculations:
+
+1. **Calculate Power**
+   - Voltage & Current → `P = V × I`
+   - Current & Resistance → `P = I² × R`
+   - Voltage & Resistance → `P = V² / R`
+
+2. **Calculate Energy**
+   - `E = P × T`
+   - Result in Joules
+
+3. **Calculate Energy Consumption**
+   - Calculates energy consumption in kWh
+   - `Energy = (Power × Time) / 1000`
+
+4. **Calculate Efficiency**
+   - `Efficiency = (Output Power / Input Power) × 100`
+
+5. **Calculate Electricity Cost**
+   - Calculates energy consumption and electricity cost
+   - `Energy = (Power × Time) / 1000`
+   - `Cost = Energy × Electricity Rate`
+
+6. **Calculate Power from Energy & Time**
+   - `P = E / T`
+
+## 🛠️ Concepts Practiced
+
+While building this project, I practiced:
 
 - Variables
 - Data types
-- Input and output
+- `printf()` and `scanf()`
+- Format specifiers
 - Arithmetic operators
-- Comparison operators
+- `if-else` statements
 - Logical operators
-- if-else statements
 - Basic input validation
+- Electrical power and energy formulas
 
-## Example
+## 💻 Technologies Used
 
-Power calculation:
+- **Language:** C
+- **Compiler:** GCC
+- **Environment:** Online C Compiler
 
-Voltage = 230 V  
-Current = 2.5 A
+## ▶️ How to Run
 
-Output:
+1. Open the `main.c` file.
+2. Copy the code into any C compiler.
+3. Compile and run the program.
+4. Select an option from the menu.
+5. Enter the required values.
 
-Power = 575.00 W
+## ⚠️ Known Limitation
+
+The current version expects numeric input for calculations.
+
+Non-numeric characters such as letters are not fully handled yet. Robust input validation will be added in a future version after learning functions and loops.
+
+## 🚀 Future Improvements
+
+Possible improvements for a future version:
+
+- Add proper handling of non-numeric input
+- Add loops to perform multiple calculations without restarting
+- Use functions to reduce repeated code
+- Improve menu handling
+- Add more electrical and electronics calculations
+
+## 📚 Learning Purpose
+
+This project was created mainly for practice while learning C programming.
+
+The goal is to gradually improve this project as I learn more C concepts and eventually apply these concepts to embedded systems and electronics projects.
+
+## 👨‍💻 Author
+
+**Abhishek**
+
+Electronics & Telecommunication Engineering Student  
+Learning C Programming and Embedded Systems
